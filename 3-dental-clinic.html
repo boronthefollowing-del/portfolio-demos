@@ -1,0 +1,26 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>عيادة ابتسامة</title>
+<style>
+:root{--c:#1b8a9a;--d:#0d4f5a;--bg:#f3fafb}
+*{box-sizing:border-box;margin:0}body{font-family:Tahoma,"Segoe UI",Arial,sans-serif;background:var(--bg);color:#1d1d1f;line-height:1.7}
+a{text-decoration:none;color:inherit}
+nav{display:flex;justify-content:space-between;align-items:center;padding:16px 6%;background:#fff;position:sticky;top:0;box-shadow:0 1px 8px #0001;z-index:5}
+nav b{font-size:22px;color:var(--c)}nav div{display:flex;gap:22px;font-size:15px}
+.btn{display:inline-block;background:var(--c);color:#fff;padding:13px 28px;border-radius:30px;font-weight:700}
+.hero{padding:90px 6%;background:linear-gradient(135deg,var(--d),var(--c));color:#fff;display:grid;gap:20px}
+.hero h1{font-size:clamp(32px,6vw,56px);line-height:1.25;max-width:700px}.hero p{max-width:560px;font-size:18px;opacity:.92}
+.hero .btn{background:#fff;color:var(--d);justify-self:start}
+section{padding:60px 6%}h2{font-size:30px;margin-bottom:28px;color:var(--d)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.card{background:#fff;border-radius:16px;padding:26px;box-shadow:0 4px 16px #0000000d}
+.card .i{font-size:34px}.card h3{margin:8px 0 4px}.card p{color:#555;font-size:15px}.price{color:var(--c);font-weight:700;margin-top:10px}
+.alt{background:#fff}.stats{display:flex;gap:40px;flex-wrap:wrap}.stats div{font-size:15px}.stats strong{display:block;font-size:36px;color:var(--c)}
+form{display:grid;gap:12px;max-width:460px}input,textarea{padding:13px;border:1px solid #ccc;border-radius:10px;font:inherit}
+footer{background:var(--d);color:#fff;text-align:center;padding:26px;font-size:14px}
+@media(max-width:600px){nav div{display:none}.hero{padding:60px 6%}}
+</style></head><body>
+<nav><b>عيادة ابتسامة</b><div><a href="#s">خدماتنا</a><a href="#a">عن العيادة</a><a href="#c">تواصل معنا</a></div></nav>
+<header class="hero"><h1>ابتسامتك تستاهل أحسن رعاية</h1><p>أطباء متخصصين، أجهزة حديثة، وكشف بدون ألم. احجز ميعادك في دقيقة.</p><a class="btn" href="#c">احجز كشف</a></header>
+<section id="s"><h2>خدماتنا</h2><div class="grid"><div class="card"><div class="i">🦷</div><h3>تنظيف وتبييض</h3><p>جلسة تنظيف وتبييض بالليزر.</p><div class="price">من 600 ج</div></div><div class="card"><div class="i">🛠️</div><h3>حشو وعلاج عصب</h3><p>علاج بدون ألم بتخدير موضعي.</p><div class="price">من 400 ج</div></div><div class="card"><div class="i">😁</div><h3>تقويم الأسنان</h3><p>تقويم معدني وشفاف للكبار والأطفال.</p><div class="price">من 9000 ج</div></div><div class="card"><div class="i">✨</div><h3>زراعة الأسنان</h3><p>زرعات بضمان وخامات أصلية.</p><div class="price">من 7000 ج</div></div></div></section>
+<section class="alt" id="a"><h2>عن العيادة</h2><p style="max-width:640px;margin-bottom:24px">فريق من 6 أطباء بخبرة أكتر من 10 سنين. معقمين على أعلى مستوى، ومواعيدنا بتتحترم.</p><div class="stats"><div><strong>+5000</strong>مريض سعيد</div><div><strong>6</strong>أطباء</div><div><strong>7/7</strong>أيام العمل</div></div></section>
+<section id="c"><h2>تواصل معنا</h2><form onsubmit="event.preventDefault();this.innerHTML='<p>شكرًا لك! هنرد عليك قريبًا.</p>'"><input placeholder="الاسم" required><input placeholder="رقم الموبايل" required><textarea rows="3" placeholder="الخدمة المطلوبة والميعاد المناسب"></textarea><button class="btn" style="border:0;cursor:pointer;font:inherit;font-weight:700">إرسال</button></form></section>
+<footer>© 2026 عيادة ابتسامة - موقع تجريبي</footer></body></html>
